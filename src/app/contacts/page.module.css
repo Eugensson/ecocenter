@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 0.5rem;
+}

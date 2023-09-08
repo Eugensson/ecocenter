@@ -1,7 +1,5 @@
 'use client';
 
-import MenuIcon from '@mui/icons-material/Menu';
-
 import { useMobileMenu } from '@/context/MobileMenuContext';
 import { Navigation } from '@/components/Navigation/Navigation';
 import MobileMenu from "@/components/MobileMenu/MobileMenu";
@@ -15,9 +13,6 @@ const TheHeader = () => {
 
   return (
     <header className={styles.wrapper}>      
-        {/* <button type='button' onClick={openMobileMenu}>
-          <span className={styles.bar}></span>          
-        </button> */}
         <span className={styles.bar} type='button' onClick={openMobileMenu}></span>
         <DarkModeToggle/>
         {isMobileMenuOpen && <MobileMenu/>}

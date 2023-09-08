@@ -6,7 +6,7 @@ export const metadata = {
 const Qualification = () => {
   return (
     <section>
-        <h1>Кваліфікація та досвід</h1>
+        <h2>Кваліфікація та досвід</h2>
     </section>
   )
 }

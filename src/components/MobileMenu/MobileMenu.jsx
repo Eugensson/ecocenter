@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { useMobileMenu } from '@/context/MobileMenuContext';
-import CloseIcon from '@mui/icons-material/Close';
 import styles from '@/components/MobileMenu/MobileMenu.module.css'
 
 export default function MobileMenu() {

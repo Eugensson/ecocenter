@@ -6,7 +6,7 @@ export const metadata = {
 const Services = () => {
   return (
     <section>
-        <h1>Екологічні послуги</h1>
+        <h2>Екологічні послуги</h2>
     </section>
   )
 }
