@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 480px;        
+}
+  
+  /* Tablet and Smaller Desktop */
+  @media (min-width: 768px) and (max-width: 1439px) {
+    .wrapper {           
+      max-width: 768px;      
+    }
+  }
+  
+  /* Desktop */
+  @media (min-width: 1440px) {
+    .wrapper {      
+      max-width: 1440px;      
+    }
+  }
+
+  .burgerBtn {
+    display: block;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .burgerBtn {
+      display: none;
+    }
+  }
