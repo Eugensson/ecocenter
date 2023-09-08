@@ -66,9 +66,9 @@ a {
 }
 
 .leaflet-container {
+  padding: 0;
   margin: 0 auto;
-  width: 100vW;
-  max-width: 460px;
+  width: 100vW;  
   height: 460px;
 }
 
