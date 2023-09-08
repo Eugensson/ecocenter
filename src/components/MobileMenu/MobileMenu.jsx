@@ -7,12 +7,8 @@ export default function MobileMenu() {
   const { closeMobileMenu } = useMobileMenu();
 
   return (
-    <div className={styles.wrapper}>
-      <button type='button' className={styles.closeBtn} onClick={closeMobileMenu}>
-        <CloseIcon
-          color="success"            
-        />
-      </button>
+    <div className={styles.wrapper}>      
+      <button type='button' className={styles.closeBtn} onClick={closeMobileMenu}></button>
       <nav className={styles.nav}>
           <Link href="/" onClick={closeMobileMenu}>Про ЕкоЦентр</Link>
           <Link href="/services" onClick={closeMobileMenu}>Екологічні послуги</Link>

@@ -9,7 +9,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>Головна сторінка</h1>      
+      <h2>Головна сторінка</h2>      
     </main>
   )
 }

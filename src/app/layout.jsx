@@ -1,3 +1,4 @@
+import { ThemeProvider } from "@/context/ThemeContext";
 import { MobileMenuProvider } from '@/context/MobileMenuContext';
 import TheHeader from '@/components/TheHeader/TheHeader';
 
@@ -19,12 +20,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <MobileMenuProvider>
-          <TheHeader/>
-          <main className="container">
-             {children}
-          </main>
-        </MobileMenuProvider>
+        <ThemeProvider>
+          <MobileMenuProvider>
+            <TheHeader/>
+            <main className="container">
+               {children}
+            </main>
+          </MobileMenuProvider>
+        </ThemeProvider>
       </body>
     </html>
   )

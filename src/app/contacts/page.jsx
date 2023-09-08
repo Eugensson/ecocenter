@@ -6,7 +6,7 @@ export const metadata = {
 const Contacts = () => {
   return (
     <section>
-        <h1>Контактна інформація</h1>
+        <h2>Контактна інформація</h2>
     </section>
   )
 }

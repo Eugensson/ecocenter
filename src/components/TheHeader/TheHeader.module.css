@@ -1,4 +1,5 @@
 .wrapper {
+    position: relative;
     display: flex;
     margin: 0 auto;
     padding: 20px;
@@ -7,25 +8,56 @@
   
   /* Tablet and Smaller Desktop */
   @media (min-width: 768px) and (max-width: 1439px) {
-    .wrapper {           
-      max-width: 768px;      
+    .wrapper {
+      max-width: 768px;
     }
   }
   
   /* Desktop */
   @media (min-width: 1440px) {
-    .wrapper {      
-      max-width: 1440px;      
+    .wrapper {
+      max-width: 1440px;
     }
   }
 
   .burgerBtn {
     display: block;
-    margin-left: auto;
-}
+    margin-left: auto;    
+  }
 
 @media (min-width: 768px) {
     .burgerBtn {
       display: none;
     }
   }
+  
+  .bar {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+
+    width: 40px;
+    height: 4px;
+    background-color: var(--green-color);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bar::before,
+.bar::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--green-color);
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bar::before {
+    top: -12px;
+    left: 0;
+}
+
+.bar::after {
+    bottom: -12px;
+    left: 0;
+}
