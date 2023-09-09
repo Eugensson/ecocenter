@@ -1,0 +1,12 @@
+.subSectionsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.4rem;
+}
