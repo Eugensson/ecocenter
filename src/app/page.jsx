@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <section>
+    <section className="sectionsWrapper">
       <h2>Головна сторінка</h2>      
     </section>
   )
