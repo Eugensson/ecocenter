@@ -17,7 +17,7 @@ const Services = () => {
             <Image
               src={"/ovd.svg"}
               width={30}
-              height={30}            
+              height={30}
               alt="Іконка документа"
             />
             <Link href="/servicesOvd">Оцінка впливів на довкілля (ОВД)</Link>
