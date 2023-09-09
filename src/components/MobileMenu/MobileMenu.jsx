@@ -1,5 +1,7 @@
 import Link from 'next/link';
+
 import { useMobileMenu } from '@/context/MobileMenuContext';
+
 import styles from '@/components/MobileMenu/MobileMenu.module.css'
 
 export default function MobileMenu() {
@@ -10,7 +12,7 @@ export default function MobileMenu() {
       <button type='button' className={styles.closeBtn} onClick={closeMobileMenu}></button>
       <nav className={styles.nav}>
           <Link href="/" onClick={closeMobileMenu}>Про ЕкоЦентр</Link>
-          <Link href="/services" onClick={closeMobileMenu}>Екологічні послуги</Link>
+          <Link href="/services" onClick={closeMobileMenu}>Послуги</Link>
           <Link href="/laboratory" onClick={closeMobileMenu}>Лабораторія</Link>
           <Link href="/qualification" onClick={closeMobileMenu}>Кваліфікація</Link>          
           <Link href="/news" onClick={closeMobileMenu}>Новини</Link>

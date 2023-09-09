@@ -1,5 +1,5 @@
-import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 import styles from '@/components/Navigation/Navigation.module.css';
 

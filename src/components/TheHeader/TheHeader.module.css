@@ -1,21 +1,25 @@
 .wrapper {
     position: relative;
     display: flex;
+    align-items: center;
+    gap: 30px;
     margin: 0 auto;
     padding: 20px;
-    max-width: 480px;        
+    max-width: 480px;
+    border-bottom: 3px solid var(--green-color);
 }
-  
-  /* Tablet and Smaller Desktop */
+ 
   @media (min-width: 768px) and (max-width: 1439px) {
     .wrapper {
+      justify-content: space-between;
+      padding: 10px;
       max-width: 768px;
     }
   }
   
-  /* Desktop */
   @media (min-width: 1440px) {
     .wrapper {
+      padding: 10px;
       max-width: 1440px;
     }
   }
@@ -40,6 +44,12 @@
     height: 4px;
     background-color: var(--green-color);
     transition: transform 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .bar {
+    display: none;
+  }
 }
 
 .bar::before,

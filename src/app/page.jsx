@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-
 export const metadata = {
   title: 'Головна | ТОВ ЕЦПНВтаПТ',
   description: "Екологічні послуги по Україні",
@@ -8,8 +5,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <section>
       <h2>Головна сторінка</h2>      
-    </main>
+    </section>
   )
 }

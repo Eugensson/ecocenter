@@ -5,7 +5,7 @@ export const metadata = {
 
 const Laboratory = () => {
   return (
-    <section>
+    <section className="sectionsWrapper">
         <h2>Лабораторія</h2>
     </section>
   )

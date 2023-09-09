@@ -15,7 +15,7 @@ export const metadata = {
 
 const Contacts = () => {
   return (
-    <section className={styled.wrapper}>
+    <section className="sectionsWrapper">
       <h2>Контакти</h2>      
       <p className={styled.text}><BusinessIcon/>18000, м. Черкаси, вул. Святотроїцька, 102/1, офіс: 3, 5</p>      
       <Link className={styled.text} href="mailto:ncpnv21@ukr.net"><ContactMailIcon/>ncpnv21@ukr.net</Link>

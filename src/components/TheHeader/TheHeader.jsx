@@ -4,6 +4,7 @@ import { useMobileMenu } from '@/context/MobileMenuContext';
 import { Navigation } from '@/components/Navigation/Navigation';
 import MobileMenu from "@/components/MobileMenu/MobileMenu";
 import DarkModeToggle from '@/components/DarkModeToggle/DarkModeToggle';
+import Logo from '@/components/Logo/Logo';
 import { navItems } from '@/data/navItems';
 
 import styles from '@/components/TheHeader/TheHeader.module.css';
@@ -13,10 +14,11 @@ const TheHeader = () => {
 
   return (
     <header className={styles.wrapper}>      
-        <span className={styles.bar} type='button' onClick={openMobileMenu}></span>
-        <DarkModeToggle/>
-        {isMobileMenuOpen && <MobileMenu/>}
-      <Navigation navLinks={navItems} />      
+      <Logo/>
+      <span className={styles.bar} type='button' onClick={openMobileMenu}></span>
+      {isMobileMenuOpen && <MobileMenu/>}
+      <Navigation navLinks={navItems} />
+      <DarkModeToggle/>
     </header>
   );
 };

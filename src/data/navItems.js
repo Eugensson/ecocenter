@@ -1,6 +1,6 @@
 export const navItems = [
     { label: 'Про ЕкоЦентр', href: '/' },
-    { label: 'Екологічні послуги', href: '/services' },
+    { label: 'Послуги', href: '/services' },
     { label: 'Лабораторія', href: '/laboratory' },
     { label: 'Кваліфікація', href: '/qualification' },
     { label: 'Новини', href: '/news' },
