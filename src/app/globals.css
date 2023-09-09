@@ -51,8 +51,7 @@ h1 {
 h2 {
   margin-bottom: 10px;
   font-size: 0.75rem;
-  text-align: center;
-  text-transform: uppercase;
+  text-align: center;  
 }
 
 h3 {
@@ -80,30 +79,22 @@ a {
 .sectionsWrapper {
   display: flex;
   flex-direction: column;
+  max-width: 480px;
+  margin: 0 auto;
   padding: 20px 0;
-  gap: 30px;
+  gap: 20px;
+  border-top: 2px solid var(--green-color);  
 }
 
 @media (min-width: 768px) {
   .sectionsWrapper {
     padding: 50px;
-  }
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 480px;
-  height: 100vh;  
-}
-
-@media (min-width: 768px) and (max-width: 1439px) {
-  .container {
     max-width: 768px;
   }
 }
 
 @media (min-width: 1440px) {
-  .container {
+  .sectionsWrapper {
     max-width: 1440px;
   }
 }

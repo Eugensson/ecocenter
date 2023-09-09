@@ -5,8 +5,8 @@ export const metadata = {
 
 const Laboratory = () => {
   return (
-    <section className="sectionsWrapper">
-        <h2>Лабораторія</h2>
+    <section>
+        <h1>Лабораторія</h1>
     </section>
   )
 }

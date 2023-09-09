@@ -1,6 +1,9 @@
 import { ThemeProvider } from "@/context/ThemeContext";
 import { MobileMenuProvider } from '@/context/MobileMenuContext';
 import TheHeader from '@/components/TheHeader/TheHeader';
+import TheFooter from "@/components/TheFooter/TheFooter";
+
+import './globals.css'
 
 import { Roboto } from "next/font/google";
 const roboto = Roboto({
@@ -9,7 +12,6 @@ const roboto = Roboto({
   weight: ["400", "500", "700", "900"],
 });
 
-import './globals.css'
 
 export const metadata = {
   title: 'Екоцентр',
@@ -23,9 +25,10 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <MobileMenuProvider>
             <TheHeader/>
-            <main className="container">
+            <main className="sectionsWrapper">
                {children}
             </main>
+            <TheFooter />
           </MobileMenuProvider>
         </ThemeProvider>
       </body>

@@ -4,28 +4,20 @@ import ContactMailIcon from '@mui/icons-material/ContactMail';
 import FaxIcon from '@mui/icons-material/Fax';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import PhoneIcon from '@mui/icons-material/Phone';
-import Map from "@/components/Map";
 
-import styles from '@/app/contacts/page.module.css';
+import styles from '@/components/TheFooter/TheFooter.module.css'
 
-export const metadata = {
-    title: 'Контакти | ТОВ ЕЦПНВтаПТ',
-    description: "Контактна інформація ТОВ ЕЦПНВтаПТ",
-  };
-
-const Contacts = () => {
+const TheFooter = () => {  
   return (
-    <section className={styles.contactsWrapper}>
-      <h1>Контакти</h1>
+    <footer className="sectionsWrapper">      
+      <h2>ТОВ ЕЦПНВтаПТ</h2>
       <p className={styles.text}><BusinessIcon/>18000, м. Черкаси, вул. Святотроїцька, 102/1, офіс: 3, 5</p>      
       <Link className={styles.text} href="mailto:ncpnv21@ukr.net"><ContactMailIcon/>ncpnv21@ukr.net</Link>
       <Link className={styles.text} href="tel:+380472361014"><FaxIcon/>+38-0472-361-014</Link>      
       <Link className={styles.text} href="tel:+380472361014"><ContactPhoneIcon/>+38-0472-361-014</Link>      
       <Link className={styles.text} href="tel:+380673956256"><PhoneIcon/>+38-067-395-62-56</Link>
-      <h2>Мапа проїзду</h2>
-      <Map/>
-    </section>
-  )
-}
+    </footer>
+  );
+};
 
-export default Contacts;
+export default TheFooter;

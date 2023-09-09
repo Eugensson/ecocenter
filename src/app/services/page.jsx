@@ -5,8 +5,8 @@ export const metadata = {
 
 const Services = () => {
   return (
-    <section className="sectionsWrapper">
-        <h2>Екологічні послуги</h2>
+    <section>
+        <h1>Екологічні послуги</h1>
     </section>
   )
 }

@@ -5,8 +5,8 @@ export const metadata = {
 
 const Qualification = () => {
   return (
-    <section className="sectionsWrapper">
-        <h2>Кваліфікація та досвід</h2>
+    <section>
+        <h1>Кваліфікація та досвід</h1>
     </section>
   )
 }
