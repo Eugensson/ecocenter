@@ -1,9 +1,0 @@
-.subSectionsWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.text {    
-    font-size: 0.4rem;
-}

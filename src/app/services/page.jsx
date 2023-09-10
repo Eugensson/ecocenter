@@ -11,7 +11,7 @@ export const metadata = {
 const Services = () => {
   return (
     <section>
-        <h1>Екологічні послуги</h1>
+        <h1>Послуги</h1>
         <ul className={styles.list}>
           <li className={styles.item}>
             <Image
