@@ -151,7 +151,7 @@ a {
 .imgOvnsContainer {
   width: 100%;
   height: 300px;    
-  background: url("/Ovns.jpg");
+  background: url("/ovns.jpg");
   background-size: cover;
   background-position: center;
 }
