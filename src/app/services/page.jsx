@@ -20,7 +20,7 @@ const Services = () => {
               height={30}
               alt="Іконка документа"
             />
-            <Link href="/servicesOvd">Оцінка впливів на довкілля (ОВД)</Link>
+            <Link href="/servicesOvd" className="text">Оцінка впливів на довкілля (ОВД)</Link>
           </li>
           <li className={styles.item}>
           <Image
@@ -29,7 +29,7 @@ const Services = () => {
               height={30}            
               alt="Іконка документа"
             />
-            <Link href="/servicesOvns">Оцінка впливів на навколишнє середовище (ОВНС)</Link>
+            <Link href="/servicesOvns" className="text">Оцінка впливів на навколишнє середовище (ОВНС)</Link>
           </li>
           <li className={styles.item}>
             <Image
@@ -38,7 +38,7 @@ const Services = () => {
               height={30}
               alt="Іконка листочка"
             />
-            <Link href="/servicesSeo">Стратегічна екологічна оцінка (СЕО)</Link>
+            <Link href="/servicesSeo" className="text">Стратегічна екологічна оцінка (СЕО)</Link>
           </li>
           <li className={styles.item}>
           <Image
@@ -47,7 +47,7 @@ const Services = () => {
               height={30}
               alt="Іконка документа"
             />
-            <Link href="/servicesSzz">Обґрунтування встановлення/зменшення санітарно-захисної зони (СЗЗ)</Link>
+            <Link href="/servicesSzz" className="text">Обґрунтування встановлення/зменшення санітарно-захисної зони (СЗЗ)</Link>
           </li>          
           <li className={styles.item}>
             <Image
@@ -56,7 +56,7 @@ const Services = () => {
               height={30}
               alt="Іконка будівлі підприємства"
             />
-            <Link href="/servicesAtmosphere">Охорона атмосферного повітря</Link>
+            <Link href="/servicesAtmosphere" className="text">Охорона атмосферного повітря</Link>
           </li>
           <li className={styles.item}>
             <Image
@@ -65,7 +65,7 @@ const Services = () => {
               height={30}
               alt="Іконка краника для води"
             />
-            <Link href="/servicesWater">Водопостачання та водовідведення</Link>
+            <Link href="/servicesWater" className="text">Водопостачання та водовідведення</Link>
           </li>
           <li className={styles.item}>
             <Image
@@ -74,7 +74,7 @@ const Services = () => {
               height={30}
               alt="Іконка урни для сміття"
             />
-            <Link href="/servicesWaste">Промислові відходи та відходи споживання</Link>
+            <Link href="/servicesWaste" className="text">Промислові відходи та відходи споживання</Link>
           </li>
         </ul>
     </section>
