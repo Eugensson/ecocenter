@@ -113,6 +113,12 @@ a {
   }
 }
 
+.listWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .textWrapper {
   display: flex;
   flex-direction: column;

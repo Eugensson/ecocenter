@@ -65,7 +65,7 @@ const Services = () => {
               height={30}
               alt="Іконка краника для води"
             />
-            <Link href="/servicesWater">Спеціальне водокористування</Link>
+            <Link href="/servicesWater">Водопостачання та водовідведення</Link>
           </li>
           <li className={styles.item}>
             <Image
