@@ -3,6 +3,7 @@ import Link from "next/link";
 const ServicesWaste = () => {
     return (
       <section className="textWrapper">
+        <div className="imgWasteContainer"></div>
         <h1>Промислові відходи та відходи споживання</h1>
         <ul className="listWrapper">
           <li><Link href="/wastePassportWaste" className="text">Паспортизація відходів</Link></li>

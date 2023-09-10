@@ -6,7 +6,8 @@ export const metadata = {
 const Laboratory = () => {
   return (
     <section>
-        <h1>Лабораторія</h1>
+      <div className="imgLaboratoryContainer"></div>
+      <h1>Лабораторія</h1>
     </section>
   )
 }

@@ -3,6 +3,7 @@ import Link from "next/link";
 const ServicesAtmosphere = () => {
   return (
     <section className="textWrapper">
+        <div className="imgAtmospereContainer"></div>
         <h1>Охорона атмосферного повітря</h1>
         <ul className="listWrapper">
           <li><Link href="/atmosphereInventory" className="text">Інвентаризація джерел викидів</Link></li>

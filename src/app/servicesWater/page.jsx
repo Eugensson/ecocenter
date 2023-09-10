@@ -3,6 +3,7 @@ import Link from "next/link";
 const ServicesWater = () => {
     return (
       <section className="textWrapper">
+          <div className="imgWaterContainer"></div>
           <h1>Спеціальне водокористування</h1>
           <ul className="listWrapper">
             <li><Link href="/waterSvk" className="text">Розробка дозволу на спеціальне водокористування</Link></li>

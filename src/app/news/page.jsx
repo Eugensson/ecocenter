@@ -6,7 +6,8 @@ export const metadata = {
 const News = () => {
   return (
     <section>
-        <h1>Новини</h1>
+      <div className="imgNewsContainer"></div>
+      <h1>Новини</h1>
     </section>
   )
 }

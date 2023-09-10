@@ -131,3 +131,94 @@ a {
   gap: 10px;
   font-size: 0.4rem;
 }
+
+.imgWellcomeContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/wellcome.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgAtmospereContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/atmosphere.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgOvnsContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/Ovns.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgOvdContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/ovd.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgSeoContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/seo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgSzzContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/szz.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgWasteContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/waste.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgWaterContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/water.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgLaboratoryContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/laboratory.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgQualificationContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/qualification.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgNewsContainer {
+  width: 100%;
+  height: 300px;    
+  background: url("/news.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
