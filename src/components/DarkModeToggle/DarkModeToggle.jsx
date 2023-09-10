@@ -5,6 +5,7 @@ import styles from "@/components/DarkModeToggle/DarkModeToggle.module.css"
 
 const DarkModeToggle = () => {
     const {toggle, mode} = useContext(ThemeContext)
+    
   return (
     <div className={styles.container} onClick={toggle}>
       <div className={styles.icon}>🌙</div>
