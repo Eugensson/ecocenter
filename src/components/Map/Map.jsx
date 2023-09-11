@@ -12,7 +12,7 @@ const customIcon = new Icon({
 
 const Map = () => {  
   return (
-    <MapContainer center={[49.442626828602904, 32.05069391852951]} zoom={13}>
+    <MapContainer center={[49.442626828602904, 32.05069391852951]} zoom={20} scrollWheelZoom={false}>
         <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
