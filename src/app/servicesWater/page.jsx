@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const ServicesWater = () => {
@@ -15,7 +16,7 @@ const ServicesWater = () => {
             <li className="navItem"><Link href="/waterPod" className="text"><CheckCircleIcon fontSize="small"/>Допомога у веденні журналів первинного обліку та звітної за фомами ПОД-11, ПОД-12 та ПОД-13</Link></li>
             <li className="navItem"><Link href="/water2tp" className="text"><CheckCircleIcon fontSize="small"/>Звітність за формою № 2 тп - водгосп</Link></li>
           </ul>
-          <Link href="/services">До послуг</Link>
+          <LinkBtn text="До послуг" url="/services"/>
       </section>
     )
   }

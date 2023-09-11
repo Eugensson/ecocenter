@@ -1,10 +1,10 @@
-import Link from "next/link";
+import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 const Water2tp = () => {
   return (
     <section className="sectionContainer">
-        <h1>Звітність за формою № 2 тп - водгосп</h1>
-        <Link href="/servicesWater">Повернутися до розділу</Link>
+      <h1>Звітність за формою № 2 тп - водгосп</h1>
+      <LinkBtn text="До розділу" url="/servicesWater"/>
     </section>
   )
 }

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const ServicesAtmosphere = () => {
@@ -12,7 +13,7 @@ const ServicesAtmosphere = () => {
           <li className="navItem"><Link href="/atmosphereGou" className="text"><CheckCircleIcon fontSize="small"/>Розробка паспортів ГОУ</Link></li>
           <li className="navItem"><Link href="/atmosphereOblik" className="text"><CheckCircleIcon fontSize="small"/>Державний облік</Link></li>
         </ul>
-        <Link href="/services">До послуг</Link>
+        <LinkBtn text="До послуг" url="/services"/>
     </section>
   )
 }

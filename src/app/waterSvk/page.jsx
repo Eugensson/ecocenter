@@ -1,10 +1,10 @@
-import Link from "next/link";
+import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 const WaterSvk = () => {
   return (
     <section className="sectionContainer">
         <h1>Розробка дозволу на спеціальне водокористування</h1>
-        <Link href="/servicesWater">Повернутися до розділу</Link>
+        <LinkBtn text="До розділу" url="/servicesWater"/>
     </section>
   )
 }

@@ -1,10 +1,10 @@
-import Link from "next/link";
+import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 const WaterGds = () => {
   return (
     <section className="sectionContainer">
         <h1>Розробка проектів нормативів гранично-допустимих скидів</h1>
-        <Link href="/servicesWater">Повернутися до розділу</Link>
+        <LinkBtn text="До розділу" url="/servicesWater"/>
     </section>
   )
 }

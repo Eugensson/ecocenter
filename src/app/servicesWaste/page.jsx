@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Link from 'next/link';
+import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const ServicesWaste = () => {
@@ -15,7 +16,7 @@ const ServicesWaste = () => {
           <li className="navItem"><Link href="/wastePassport" className="text"><CheckCircleIcon fontSize="small"/>Паспортизація місць видалення відходів</Link></li>
           <li className="navItem"><Link href="/waste1wt" className="text"><CheckCircleIcon fontSize="small"/>Звітність за формою № 1-BT</Link></li>
         </ul>
-        <Link href="/services">До послуг</Link>
+        <LinkBtn text="До послуг" url="/services"/>
       </section>
     )
   }
