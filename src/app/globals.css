@@ -147,7 +147,7 @@ a {
 
 .text {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   
   font-size: 0.5rem;  
