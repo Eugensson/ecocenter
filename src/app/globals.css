@@ -5,6 +5,7 @@
   --accent-text-color: #06278b;
   --primary-background-color: #ffffff;
   --secondary-background-color: #003d00;
+  --third-background-color: rgba(255, 255, 255, 0.3);
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -114,10 +115,32 @@ a:hover, a:focus {
   padding: 10px;
 }
 
+.subSectionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   
+}
+
+.contactContainer, .mapContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  
+  width: 350px;
+  height: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--third-background-color);
+}
+
+.mapContainer {
+  align-items: center;
+}
+
 .leaflet-container {
   padding: 0;  
-  width: 500px;  
-  height: 500px;
+  width: 280px;  
+  height: 280px;
 }
 
 .navList {
@@ -321,6 +344,17 @@ a:hover, a:focus {
 
     margin-bottom: 40px;
     padding: 40px;
+  }
+
+  .contactContainer, .mapContainer {
+    width: 600px;
+    height: 600px;
+    padding: 40px;    
+  }
+
+  .leaflet-container {
+    width: 450px;
+    height: 450px;
   }
 
   h1 {  
