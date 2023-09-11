@@ -19,10 +19,10 @@ export default function MobileMenu() {
       </nav>
       <ul className={styles.list}>
             <li>
-              <Link href="https://www.instagram.com/" target="_blank" className={styles.social}>Instagram</Link>
+              <Link href="https://telegram.org/" target="_blank" className={styles.social}>Telegram</Link>
             </li>
             <li>
-              <Link href="https://twitter.com/" target="_blank" className={styles.social}>Tweeter</Link>
+              <Link href="https://twitter.com/" target="_blank" className={styles.social}>Twitter</Link>
             </li>
             <li>
               <Link href="https://facebook.com/pokrov.ltd/" target="_blank" className={styles.social}>Facebook</Link>
