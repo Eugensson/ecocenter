@@ -68,6 +68,10 @@ a {
   text-decoration: none;
 }
 
+a:hover, a:focus {
+  color: var(--accent-text-color);
+}
+
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -140,10 +144,9 @@ a {
   gap: 10px;  
 }
 
-.socialLink:hover,
-  .socialLink:focus {
+.socialLink:hover, .socialLink:focus {
     color: var(--accent-text-color);
-  } 
+}
 
 .text {
   display: flex;
