@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <MobileMenuProvider>
             <TheHeader/>
-            <main className="sectionsWrapper">
+            <main className="mainContainer">
                {children}
             </main>
             <TheFooter />

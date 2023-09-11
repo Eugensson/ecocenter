@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Water2tp = () => {
   return (
-    <section>
+    <section className="sectionContainer">
         <h1>Звітність за формою № 2 тп - водгосп</h1>
         <Link href="/servicesWater">Повернутися до розділу</Link>
     </section>

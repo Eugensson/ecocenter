@@ -5,8 +5,8 @@ export const metadata = {
 
 const Laboratory = () => {
   return (
-    <section>
-      <div className="imgLaboratoryContainer"></div>
+    <section className="sectionContainer">
+      <div className="bgiContainer bgiLaboratory"></div>
       <h1>Лабораторія</h1>
     </section>
   )

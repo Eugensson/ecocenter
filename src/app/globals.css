@@ -48,16 +48,14 @@ body {
   display: none;
 }
 
-h1 {
-  margin-bottom: 10px;
-  font-size: 0.60rem;
+h1 {  
+  font-size: 0.5rem;
   text-align: center;
   text-transform: uppercase;
 }
 
-h2 {
-  margin-bottom: 10px;
-  font-size: 0.60rem;
+h2 {  
+  font-size: 0.4rem;
   text-align: center;  
 }
 
@@ -71,172 +69,259 @@ a {
   text-decoration: none;
 }
 
-.leaflet-container {
-  padding: 0;
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  max-width: 480px;
   margin: 0 auto;
+  border-bottom: 3px solid var(--green-color);    
+}
+
+.headerContainer {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 480px;
+  border-bottom: 3px solid var(--green-color);  
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.leaflet-container {
+  padding: 0;  
   width: 500px;  
   height: 500px;
 }
 
-.sectionsWrapper {
-  display: flex;
-  flex-direction: column;
-  max-width: 480px;
-  margin: 0 auto;
-  padding: 20px;
-  gap: 20px;
-  border-top: 2px solid var(--green-color);  
-}
-
-.listWrapper {
+.navList {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.textWrapper {
+.navItem {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  align-items: center;
+  gap: 10px;  
 }
 
 .text {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  font-size: 0.4rem;  
+  
+  font-size: 0.5rem;  
 }
 
-.imgWellcomeContainer {
+.bgiContainer {
   width: 100%;
-  height: 300px;    
-  background: url("/wellcome.jpg");
+  height: 300px;
   background-size: cover;
+  background-position: top;
+}
+
+.bgiWellcome {
+  background-image: url("/wellcome.jpg");
+}
+
+.bgiServices {
+  background-image: url("/services.jpg");
   background-position: center;
 }
 
-.imgAtmospereContainer {
-  width: 100%;
-  height: 300px;    
-  background: url("/atmosphere.jpg");
-  background-size: cover;
+.bgiAtmospere {
+  background-image: url("/atmosphere.jpg");
+}
+
+.bgiOvns {
+  background-image: url("/ovns.jpg");
+}
+
+.bgiOvd {
+  background-image: url("/ovd.jpg");
+}
+
+.bgiSeo {
+  background-image: url("/seo.jpg");
+  background-position: bottom;
+}
+
+.bgiSzz {
+  background-image: url("/szz.jpg");
   background-position: center;
 }
 
-.imgOvnsContainer {
-  width: 100%;
-  height: 300px;    
-  background: url("/ovns.jpg");
-  background-size: cover;
+.bgiWaste {
+  background-image: url("/waste.jpg");
   background-position: center;
 }
 
-.imgOvdContainer {
-  width: 100%;
-  height: 300px;    
-  background: url("/ovd.jpg");
-  background-size: cover;
+.bgiWater {
+  background-image: url("/water.jpg");
+}
+
+.bgiLaboratory {
+  background-image: url("/laboratory.jpg");
   background-position: center;
 }
 
-.imgSeoContainer {
-  width: 100%;
-  height: 300px;    
-  background: url("/seo.jpg");
-  background-size: cover;
+.bgiQualification {
+  background-image: url("/qualification.jpg");
+  background-position: bottom;
+}
+
+.bgiNews {
+  background-image: url("/news.jpg");
+  background-position: bottom;
+}
+
+.bgiContacts {
+  background-image: url("/contacts.jpg");
   background-position: center;
 }
 
-.imgSzzContainer {
-  width: 100%;
-  height: 300px;    
-  background: url("/szz.jpg");
-  background-size: cover;
-  background-position: center;
+.burger {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  
+  width: 40px;
+  height: 4px;
+  background-color: var(--green-color);
+  transition: transform 0.3s ease-in-out;    
 }
-
-.imgWasteContainer {
+  
+.burger::before,
+.burger::after {
+  content: "";
   width: 100%;
-  height: 300px;    
-  background: url("/waste.jpg");
-  background-size: cover;
-  background-position: center;
+  height: 4px;
+  background-color: var(--green-color);
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
 }
-
-.imgWaterContainer {
-  width: 100%;
-  height: 300px;    
-  background: url("/water.jpg");
-  background-size: cover;
-  background-position: center;
+  
+.burger::before {
+  top: -12px;
+  left: 0;
 }
-
-.imgLaboratoryContainer {
-  width: 100%;
-  height: 300px;    
-  background: url("/laboratory.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.imgQualificationContainer {
-  width: 100%;
-  height: 300px;    
-  background: url("/qualification.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.imgNewsContainer {
-  width: 100%;
-  height: 300px;    
-  background: url("/news.jpg");
-  background-size: cover;
-  background-position: center;
+  
+.burger::after {
+  bottom: -12px;
+  left: 0;
 }
 
 @media (min-width: 768px) {
-  .sectionsWrapper {
-    padding: 50px;
+  .mainContainer {
+    max-width: 768px;    
+  }
+
+  .headerContainer {
+    justify-content: space-between;
+    
     max-width: 768px;
+    padding: 10px;
+  }
+
+  .sectionContainer {    
+    gap: 20px;
+
+    margin-bottom: 20px;
+    padding: 20px;
   }
 
   .logo {
     display: block;
   }
 
-  h1 {
-    margin-bottom: 10px;
-    font-size: 1rem;    
-  }
-  
-  h2 {
-    margin-bottom: 10px;
-    font-size: 1rem;     
+  .burger {
+    display: none;
   }
 
-  .textWrapper {
-    gap: 35px;
+  h1 {  
+    font-size: 0.75rem;    
+  }
+  
+  h2 {  
+    font-size: 0.6rem;
+  }
+
+  .navList, .navItem {
+    gap: 20px;
   }
 
   .text {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     text-align: justify;
     gap: 20px;
   }
 }
 
 @media (min-width: 1440px) {
-  .sectionsWrapper {
+  .mainContainer, .headerContainer {
     max-width: 1440px;
   }
+   
+  .sectionContainer {    
+    gap: 30px;
 
-  .textWrapper {
-    gap: 50px;
+    margin-bottom: 40px;
+    padding: 40px;
+  }
+
+  h1 {  
+    font-size: 1rem;    
+  }
+  
+  h2 {  
+    font-size: 0.9rem;
+  }
+
+  .navList, .navItem {
+    gap: 40px;
   }
 
   .text {    
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     gap: 30px;
   }
 }
+
+/* .menu__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100vw;
+  height: 100vh;
+  padding: 48px 40px;
+  background-color: #ffffff;
+  z-index: 999;
+  overflow-y: scroll;
+
+  transform: translateX(150%);
+  transition: transform 250ms ease-in-out;
+
+  &.is-open {
+    transform: translateX(0);
+  }
+} */

@@ -15,7 +15,8 @@ export const metadata = {
 
 const Contacts = () => {
   return (
-    <section className={styles.contactsWrapper}>
+    <section className="sectionContainer">
+      <div className="bgiContainer bgiContacts"></div>
       <h1>Контакти</h1>
       <p className={styles.text}><BusinessIcon/>18000, м. Черкаси, вул. Святотроїцька, 102/1, офіс: 3, 5</p>      
       <Link className={styles.text} href="mailto:ncpnv21@ukr.net"><ContactMailIcon/>ncpnv21@ukr.net</Link>

@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const ServicesAtmosphere = () => {
   return (
-    <section className="textWrapper">
-        <div className="imgAtmospereContainer"></div>
+    <section className="sectionContainer">
+        <div className="bgiContainer bgiAtmospere"></div>
         <h1>Охорона атмосферного повітря</h1>
-        <ul className="listWrapper">
+        <ul className="navList">
           <li><Link href="/atmosphereInventory" className="text">Інвентаризація джерел викидів</Link></li>
           <li><Link href="/atmosphereReasoning" className="text">Підготовка обгрунтовуючих матеріалів для отримання дозволу на викиди</Link></li>
           <li><Link href="/atmosphereGou" className="text">Розробка паспортів ГОУ</Link></li>

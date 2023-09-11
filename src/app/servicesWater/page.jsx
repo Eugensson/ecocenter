@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const ServicesWater = () => {
     return (
-      <section className="textWrapper">
-          <div className="imgWaterContainer"></div>
+      <section className="sectionContainer">
+          <div className="bgiContainer bgiWater"></div>
           <h1>Спеціальне водокористування</h1>
-          <ul className="listWrapper">
+          <ul className="navList">
             <li><Link href="/waterSvk" className="text">Розробка дозволу на спеціальне водокористування</Link></li>
             <li><Link href="/waterGds" className="text">Розробка проектів нормативів гранично-допустимих скидів</Link></li>
             <li><Link href="/waterNorms" className="text">Розробка питомих норм водоспоживання та водовідведення, індивідуальних технологічних нормативів використання питної води</Link></li>

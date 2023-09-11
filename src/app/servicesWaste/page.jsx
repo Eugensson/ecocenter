@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const ServicesWaste = () => {
     return (
-      <section className="textWrapper">
-        <div className="imgWasteContainer"></div>
+      <section className="sectionContainer">
+        <div className="bgiContainer bgiWaste"></div>
         <h1>Промислові відходи та відходи споживання</h1>
-        <ul className="listWrapper">
+        <ul className="navList">
           <li><Link href="/wastePassportWaste" className="text">Паспортизація відходів</Link></li>
           <li><Link href="/wastePlan" className="text">Розробка плану управління відходами</Link></li>
           <li><Link href="/wasteDeclaration" className="text">Декларація про утворення відходів</Link></li>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const WaterNorms = () => {
   return (
-    <section>
+    <section className="sectionContainer">
         <h1>Розробка питомих норм водоспоживання та водовідведення, індивідуальних технологічних нормативів використання питної води</h1>
         <Link href="/servicesWater">Повернутися до розділу</Link>
     </section>
