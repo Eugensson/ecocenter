@@ -1,4 +1,3 @@
-import Image from "next/image";
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
