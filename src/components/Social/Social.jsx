@@ -12,8 +12,9 @@ const Social = () => {
               className="socialLink"
               href="https://telegram.org/"
               target="_blank"
+              aria-label="Іконка Telegram"
             >
-              <TelegramIcon aria-label="Іконка Telegram"/>              
+              <TelegramIcon/>              
             </Link>
           </li>
           <li>
@@ -21,8 +22,9 @@ const Social = () => {
               className="socialLink"
               href="https://twitter.com/"
               target="_blank"
+              aria-label="Іконка Twitter"
             >
-              <TwitterIcon aria-label="Іконка Twitter"/>              
+              <TwitterIcon/>              
             </Link>
           </li>
           <li>
@@ -30,8 +32,9 @@ const Social = () => {
               className="socialLink"
               href="https://facebook.com/"
               target="_blank"
+              aria-label="Іконка Facebook"
             >
-              <FacebookIcon aria-label="Іконка Facebook"/>              
+              <FacebookIcon/>              
             </Link>
           </li>
           <li>
@@ -39,8 +42,9 @@ const Social = () => {
               className="socialLink"
               href="https://www.linkedin.com/"
               target="_blank"
+              aria-label="Іконка linkedIn"
             >
-              <LinkedInIcon aria-label="Іконка linkedIn"/>              
+              <LinkedInIcon/>              
             </Link>
           </li>
         </ul>
