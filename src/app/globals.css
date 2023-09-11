@@ -1,6 +1,5 @@
 :root {
-  --green-color: #009f00;
-  --blue-color: #0000ff;
+  --green-color: #009f00;  
   --primary-text-color: #003d00;
   --secondary-text-color: #ffffff;
   --accent-text-color: #2196f3;
@@ -128,6 +127,23 @@ a {
   align-items: center;
   gap: 10px;  
 }
+
+.socialList {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.socialItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;  
+}
+
+.socialLink:hover,
+  .socialLink:focus {
+    color: var(--accent-text-color);
+  } 
 
 .text {
   display: flex;
@@ -277,7 +293,7 @@ a {
     font-size: 0.6rem;
   }
 
-  .navList, .navItem {
+  .navList, .navItem, .socialList {
     gap: 20px;
   }
 
@@ -312,7 +328,7 @@ a {
     font-size: 0.9rem;
   }
 
-  .navList, .navItem {
+  .navList, .navItem, .socialList {
     gap: 40px;
   }
 

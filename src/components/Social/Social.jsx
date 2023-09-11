@@ -1,65 +1,46 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
-import styles from '@/components/Social/Social.module.css';
-
-const Social = ({width, height}) => {
+const Social = () => {
   return (
-    <ul className={styles.sociallist}>
-          <li className={styles.socialItem}>
+    <ul className="socialList">
+          <li>
             <Link
-              className={styles.socialLink}
-              href="https://www.instagram.com/"
+              className="socialLink"
+              href="https://telegram.org/"
               target="_blank"
             >
-              <Image
-                src={"/Instagram.svg"}
-                width={width}
-                height={height}
-                alt="Іконка Instagram"
-              />
+              <TelegramIcon aria-label="Іконка Telegram"/>              
             </Link>
           </li>
-          <li className={styles.socialItem}>
+          <li>
             <Link
-              className={styles.socialLink}
+              className="socialLink"
               href="https://twitter.com/"
               target="_blank"
             >
-              <Image
-                src={"/Twitter.svg"}
-                width={15}
-                height={15}
-                alt="Іконка Twitter"
-              />
+              <TwitterIcon aria-label="Іконка Twitter"/>              
             </Link>
           </li>
-          <li className={styles.socialItem}>
+          <li>
             <Link
-              className={styles.socialLink}
+              className="socialLink"
               href="https://facebook.com/"
               target="_blank"
             >
-              <Image
-                src={"/Facebook.svg"}
-                width={15}
-                height={15}
-                alt="Іконка Facebook"
-              />
+              <FacebookIcon aria-label="Іконка Facebook"/>              
             </Link>
           </li>
-          <li className={styles.socialItem}>
+          <li>
             <Link
-              className={styles.socialLink}
+              className="socialLink"
               href="https://www.linkedin.com/"
               target="_blank"
             >
-              <Image
-                src={"/LinkedIn.svg"}                
-                width={15}
-                height={15}
-                alt="Іконка linkedIn"
-              />
+              <LinkedInIcon aria-label="Іконка linkedIn"/>              
             </Link>
           </li>
         </ul>
