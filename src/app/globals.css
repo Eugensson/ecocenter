@@ -1,10 +1,10 @@
 :root {
   --green-color: #009f00;  
-  --primary-text-color: #003d00;
+  --primary-text-color: #001e00;
   --secondary-text-color: #ffffff;
-  --accent-text-color: #140993;
+  --accent-text-color: #2196f3;
   --primary-background-color: #ffffff;
-  --secondary-background-color: #003d00;
+  --secondary-background-color: #001e00;
   --third-background-color: rgba(255, 255, 255, 0.3);
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
