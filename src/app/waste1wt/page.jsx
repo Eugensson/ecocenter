@@ -1,5 +1,10 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
+export const metadata = {
+  title: '№ 1-BT | ТОВ ЕЦПНВтаПТ',
+  description: "Складання звітності за формою № 1-BT",
+};
+
 const Waste1wt = () => {
   return (
     <section className="sectionContainer">

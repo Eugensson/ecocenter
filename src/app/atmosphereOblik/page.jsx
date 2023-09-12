@@ -1,5 +1,10 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
+export const metadata = {
+  title: 'Державний облік | ТОВ ЕЦПНВтаПТ',
+  description: "Державний облік об'єктів, виробничо-господарська діяльність яких можє мати негативний вплив на здоров'я людей та стан атмосферного повітря",
+};
+
 const AtmosphereOblik = () => {
   return (
     <section className="sectionContainer">

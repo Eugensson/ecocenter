@@ -2,6 +2,11 @@ import Link from 'next/link';
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
+export const metadata = {
+  title: 'Відходи | ТОВ ЕЦПНВтаПТ',
+  description: 'Промислові відходи та відходи споживання',
+}
+
 const ServicesWaste = () => {
     return (
       <section className="sectionContainer">

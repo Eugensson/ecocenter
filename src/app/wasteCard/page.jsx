@@ -1,5 +1,10 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
+export const metadata = {
+  title: 'Реєстрові карти | ТОВ ЕЦПНВтаПТ',
+  description: "Розробка реєстрових карт об'єктів утворення, оброблення та утилізації відходів",
+};
+
 const WasteCard = () => {
   return (
     <section className="sectionContainer">

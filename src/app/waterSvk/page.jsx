@@ -1,6 +1,11 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
+export const metadata = {
+  title: 'Дозвіл на СВК | ТОВ ЕЦПНВтаПТ',
+  description: "Розробка дозволу на спеціальне водокористування",
+};
+
 const WaterSvk = () => {
   return (
     <section className="sectionContainer">

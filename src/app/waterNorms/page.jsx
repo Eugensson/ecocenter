@@ -1,6 +1,11 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
+export const metadata = {
+  title: 'ІТНВПВ | ТОВ ЕЦПНВтаПТ',
+  description: "Розробка питомих норм водоспоживання та водовідведення, індивідуальних технологічних нормативів використання питної води",
+};
+
 const WaterNorms = () => {
   return (
     <section className="sectionContainer">

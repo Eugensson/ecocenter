@@ -1,5 +1,10 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
+export const metadata = {
+  title: 'Інвентаризація відходів | ТОВ ЕЦПНВтаПТ',
+  description: "Інвентаризація відходів",
+};
+
 const WasteInventory = () => {
   return (
     <section className="sectionContainer">

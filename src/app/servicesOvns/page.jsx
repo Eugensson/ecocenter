@@ -1,5 +1,10 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
+export const metadata = {
+  title: 'ОВНС | ТОВ ЕЦПНВтаПТ',
+  description: 'Оцінка впливів на навколишнє середовище',
+}
+
 const ServicesOvns = () => {
     return (
       <section className="sectionContainer">

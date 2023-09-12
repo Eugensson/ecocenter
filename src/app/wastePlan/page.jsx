@@ -1,5 +1,10 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
+export const metadata = {
+  title: 'План управління відходами | ТОВ ЕЦПНВтаПТ',
+  description: "Розробка плану управління відходами",
+};
+
 const WastePlan = () => {
   return (
     <section className="sectionContainer">

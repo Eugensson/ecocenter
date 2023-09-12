@@ -1,6 +1,11 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
+export const metadata = {
+  title: 'СЕО | ТОВ ЕЦПНВтаПТ',
+  description: 'Стратегічна екологічна оцінка',
+}
+
 const ServicesSeo = () => {
     return (
       <section className="sectionContainer">

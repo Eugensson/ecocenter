@@ -1,5 +1,10 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
+export const metadata = {
+  title: 'Декларація на відходи | ТОВ ЕЦПНВтаПТ',
+  description: "Складання декларації про утворення відходів",
+};
+
 const WasteDeclaration = () => {
   return (
     <section className="sectionContainer">

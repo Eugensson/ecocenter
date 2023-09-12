@@ -1,6 +1,11 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
+export const metadata = {
+  title: 'Проекти ГДС | ТОВ ЕЦПНВтаПТ',
+  description: "Розробка проектів нормативів гранично-допустимих скидів",
+};
+
 const WaterGds = () => {
   return (
     <section className="sectionContainer">

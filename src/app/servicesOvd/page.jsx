@@ -1,6 +1,11 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
+export const metadata = {
+  title: 'ОВД | ТОВ ЕЦПНВтаПТ',
+  description: 'Оцінка впливів на довкілля',
+}
+
 const ServicesOvd = () => {
     return (
       <section className="sectionContainer">

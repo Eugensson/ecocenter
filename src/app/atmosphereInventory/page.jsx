@@ -1,6 +1,11 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
+export const metadata = {
+  title: 'Інвентаризація викидів | ТОВ ЕЦПНВтаПТ',
+  description: "Проведення інвентаризації джерел викидів",
+};
+
 const AtmosphereInventory = () => {
   return (
     <section className="sectionContainer">

@@ -1,6 +1,11 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
+export const metadata = {
+  title: 'Дозвіл на викиди | ТОВ ЕЦПНВтаПТ',
+  description: "Підготовка обгрунтовуючих матеріалів та отримання дозволу на викиди",
+};
+
 const AtmosphereReasoning = () => {
   return (
     <section className="sectionContainer">

@@ -1,6 +1,11 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
+export const metadata = {
+  title: '2 тп-водгосп | ТОВ ЕЦПНВтаПТ',
+  description: "Зкладання звітності за формою № 2 тп - водгосп",
+};
+
 const Water2tp = () => {
   return (
     <section className="sectionContainer">

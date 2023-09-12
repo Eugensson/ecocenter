@@ -2,6 +2,11 @@ import Link from "next/link";
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
+export const metadata = {
+  title: 'Атмосферне повітря | ТОВ ЕЦПНВтаПТ',
+  description: 'Охорона атмосферного повітря',
+}
+
 const ServicesAtmosphere = () => {
   return (
     <section className="sectionContainer">
