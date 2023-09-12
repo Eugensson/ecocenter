@@ -1,5 +1,11 @@
 import Link from "next/link";
-import Image from "next/image";
+import SaveAsIcon from '@mui/icons-material/SaveAs';
+import GradingIcon from '@mui/icons-material/Grading';
+import ContentPasteSearchIcon from '@mui/icons-material/ContentPasteSearch';
+import NoteAltIcon from '@mui/icons-material/NoteAlt';
+import FactoryIcon from '@mui/icons-material/Factory';
+import WaterDropIcon from '@mui/icons-material/WaterDrop';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 export const metadata = {
     title: 'Послуги | ТОВ ЕЦПНВтаПТ',
@@ -13,67 +19,25 @@ const Services = () => {
       <h1>Послуги:</h1>
       <ul className="navList">
         <li className="navItem">
-            <Image
-              src={"/ovd.svg"}
-              width={30}
-              height={30}
-              alt="Іконка документа"
-            />
-            <Link href="/servicesOvd" className="text">Оцінка впливів на довкілля (ОВД)</Link>
+          <Link href="/servicesOvd" className="text" aria-label="Іконка документа"><SaveAsIcon fontSize="small"/>Оцінка впливів на довкілля (ОВД)</Link>
         </li>
         <li className="navItem">
-          <Image
-              src={"/ovns.svg"}
-              width={30}
-              height={30}            
-              alt="Іконка документа"
-            />
-            <Link href="/servicesOvns" className="text">Оцінка впливів на навколишнє середовище (ОВНС)</Link>
+          <Link href="/servicesOvns" className="text" aria-label="Іконка документа"><GradingIcon fontSize="small"/>Оцінка впливів на навколишнє середовище (ОВНС)</Link>
         </li>
         <li className="navItem">
-            <Image
-              src={"/seo.svg"}
-              width={30}
-              height={30}
-              alt="Іконка листочка"
-            />
-            <Link href="/servicesSeo" className="text">Стратегічна екологічна оцінка (СЕО)</Link>
+          <Link href="/servicesSeo" className="text" aria-label="Іконка документа"><ContentPasteSearchIcon fontSize="small"/>Стратегічна екологічна оцінка (СЕО)</Link>
         </li>
         <li className="navItem">
-          <Image
-              src={"/szz.svg"}
-              width={30}
-              height={30}
-              alt="Іконка документа"
-            />
-            <Link href="/servicesSzz" className="text">Обґрунтування встановлення/зменшення санітарно-захисної зони (СЗЗ)</Link>
+          <Link href="/servicesSzz" className="text" aria-label="Іконка документа"><NoteAltIcon fontSize="small"/>Обґрунтування встановлення/зменшення санітарно-захисної зони (СЗЗ)</Link>
         </li>          
         <li className="navItem">
-            <Image
-              src={"/atmosphere.svg"}
-              width={30}
-              height={30}
-              alt="Іконка будівлі підприємства"
-            />
-            <Link href="/servicesAtmosphere" className="text">Охорона атмосферного повітря</Link>
+          <Link href="/servicesAtmosphere" className="text" aria-label="Іконка будівлі підприємства"><FactoryIcon fontSize="small"/>Охорона атмосферного повітря</Link>
         </li>
         <li className="navItem">
-            <Image
-              src={"/water.svg"}
-              width={30}
-              height={30}
-              alt="Іконка краника для води"
-            />
-            <Link href="/servicesWater" className="text">Водопостачання та водовідведення</Link>
+          <Link href="/servicesWater" className="text" aria-label="Іконка крапельки води"><WaterDropIcon fontSize="small"/>Водопостачання та водовідведення</Link>
         </li>
         <li className="navItem">
-            <Image
-              src={"/waste.svg"}
-              width={30}
-              height={30}
-              alt="Іконка урни для сміття"
-            />
-            <Link href="/servicesWaste" className="text">Промислові відходи та відходи споживання</Link>
+          <Link href="/servicesWaste" className="text" aria-label="Іконка урни для сміття"><DeleteIcon fontSize="small"/>Промислові відходи та відходи споживання</Link>
         </li>
       </ul>
     </section>
