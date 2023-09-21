@@ -1,5 +1,5 @@
 export const navItems = [
-    { label: 'Про центр', href: '/' },
+    { label: 'Про нас', href: '/' },
     { label: 'Послуги', href: '/services' },
     { label: 'Кваліфікація', href: '/qualification' },
     { label: 'Лабораторія', href: '/laboratory' },    

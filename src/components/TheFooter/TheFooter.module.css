@@ -1,0 +1,17 @@
+.contactsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {    
+    font-size: 0.6rem;
+    text-align: center;
+}

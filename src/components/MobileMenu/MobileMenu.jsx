@@ -11,7 +11,7 @@ export default function MobileMenu() {
     <div className={styles.wrapper}>      
       <button type='button' className={styles.closeBtn} onClick={closeMobileMenu}></button>
       <nav className={styles.nav}>
-          <Link href="/" onClick={closeMobileMenu}>Про ЕкоЦентр</Link>
+          <Link href="/" onClick={closeMobileMenu}>Про нас</Link>
           <Link href="/services" onClick={closeMobileMenu}>Послуги</Link>
           <Link href="/laboratory" onClick={closeMobileMenu}>Лабораторія</Link>
           <Link href="/qualification" onClick={closeMobileMenu}>Кваліфікація</Link>          

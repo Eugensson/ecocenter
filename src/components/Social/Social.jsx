@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import TelegramIcon from '@mui/icons-material/Telegram';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
@@ -16,17 +15,7 @@ const Social = () => {
             >
               <TelegramIcon/>              
             </Link>
-          </li>
-          <li>
-            <Link
-              className="socialLink"
-              href="https://twitter.com/"
-              target="_blank"
-              aria-label="Іконка Twitter"
-            >
-              <TwitterIcon/>              
-            </Link>
-          </li>
+          </li>          
           <li>
             <Link
               className="socialLink"
