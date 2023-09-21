@@ -188,14 +188,14 @@ a:hover, a:focus {
 
 .bgiContainer {
   width: 100%;
-  height: 350px;
+  height: 300px;
   background-size: cover;
   background-position: top;
 }
 
 .bgiWellcome {
   background-image: url("/wellcome.jpg");
-  background-position: bottom;
+  background-position: center 75%;
 }
 
 .bgiServices {
