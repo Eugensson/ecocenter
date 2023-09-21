@@ -14,22 +14,22 @@ const TheFooter = () => {
         <Link href="viber://chat?number=+380673956256" aria-label="Viber" className={styles.link}>
             <Image
               src={"/viber.svg"}
-              width={30}
-              height={30}
+              width={20}
+              height={20}
               alt="Іконка viber"
             />
         </Link>
         <Link href="whatsapp://send?phone=+380673956256" aria-label="WhatsApp" className={styles.link}>
             <Image
               src={"/whatsapp.svg"}
-              width={30}
-              height={30}
+              width={20}
+              height={20}
               alt="Іконка viber"
             />
         </Link>
       </div>      
       <h2>Ми у соцмежах</h2>
-      <Social width={30} height={30}/>
+      <Social />
       <p className="copyrightText">&copy; 2023, ТОВ &quot;ЕЦ ПНВ ПТ&quot;. Всі права захищено.</p>
     </footer>
   );

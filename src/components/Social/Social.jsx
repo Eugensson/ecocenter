@@ -13,7 +13,7 @@ const Social = () => {
               target="_blank"
               aria-label="Іконка Telegram"
             >
-              <TelegramIcon/>              
+              <TelegramIcon fontSize="small"/>              
             </Link>
           </li>          
           <li>
@@ -23,7 +23,7 @@ const Social = () => {
               target="_blank"
               aria-label="Іконка Facebook"
             >
-              <FacebookIcon/>              
+              <FacebookIcon fontSize="small"/>              
             </Link>
           </li>
           <li>
@@ -33,7 +33,7 @@ const Social = () => {
               target="_blank"
               aria-label="Іконка linkedIn"
             >
-              <LinkedInIcon/>              
+              <LinkedInIcon fontSize="small"/>              
             </Link>
           </li>
         </ul>

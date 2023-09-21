@@ -6,8 +6,8 @@ const Logo = () => {
     <Link href="/" className="logo" >
         <Image
           src={"/logo.svg"}
-          width={100}
-          height={100}
+          width={50}
+          height={50}
           alt="Логотип"
         />
     </Link>
