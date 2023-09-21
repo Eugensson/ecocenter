@@ -176,7 +176,7 @@ a:hover, a:focus {
   align-items: center;
   gap: 10px;
   
-  font-size: 0.5rem;  
+  font-size: 0.25rem;  
 }
 
 .copyrightText {
@@ -327,7 +327,7 @@ a:hover, a:focus {
   }
 
   .text {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     text-align: justify;
     gap: 20px;
   }
@@ -368,8 +368,7 @@ a:hover, a:focus {
     font-size: 0.9rem;
   }
 
-  .text {    
-    font-size: 0.5rem;
+  .text {     
     gap: 30px;
   }
 
