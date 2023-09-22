@@ -127,74 +127,74 @@ a:hover, a:focus {
 .bgiContainer {
   display: none;
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-size: cover;
   background-position: top;
 }
 
 .bgiWellcome {
-  background-image: url("/wellcome.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364016/ecocenter/wellcome_as7os6.jpg");
   background-position: center 70%;
 }
 
 .bgiServices {
-  background-image: url("/services.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364015/ecocenter/services_dxskso.jpg");
   background-position: center;
 }
 
 .bgiAtmospere {
-  background-image: url("/atmosphere.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364017/ecocenter/atmosphere_djfhmw.jpg");
 }
 
 .bgiOvns {
-  background-image: url("/ovns.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364015/ecocenter/ovns_tedn8g.jpg");
 }
 
 .bgiOvd {
-  background-image: url("/ovd.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364015/ecocenter/ovd_wtoej0.jpg");
 }
 
 .bgiSeo {
-  background-image: url("/seo.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364016/ecocenter/seo_spjeik.jpg");
   background-position: bottom;
 }
 
 .bgiSzz {
-  background-image: url("/szz.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364017/ecocenter/szz_mfcgqg.jpg");
   background-position: center;
 }
 
 .bgiWaste {
-  background-image: url("/waste.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364017/ecocenter/waste_zgaouw.jpg");
   background-position: center;
 }
 
 .bgiWater {
-  background-image: url("/water.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364017/ecocenter/water_r2mg9v.jpg");
 }
 
 .bgiLaboratory {
-  background-image: url("/laboratory.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364016/ecocenter/laboratory_xc739y.jpg");
   background-position: center;
 }
 
 .bgiQualification {
-  background-image: url("/qualification.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364016/ecocenter/qualification_ibxnhx.jpg");
   background-position: bottom;
 }
 
 .bgiLaws {
-  background-image: url("/laws.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364016/ecocenter/laws_issoap.jpg");
   background-position: bottom;
 }
 
 .bgiLinks {
-  background-image: url("/links.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364016/ecocenter/links_eqtan3.jpg");
   background-position: center;
 }
 
 .bgiContacts {
-  background-image: url("/contacts.jpg");
+  background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1695364015/ecocenter/contacts_zpt5ze.jpg");
   background-position: center;
 }
 
