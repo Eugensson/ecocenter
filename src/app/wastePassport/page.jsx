@@ -1,7 +1,7 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 export const metadata = {
-  title: 'Паспортизація МВВ | ТОВ ЕЦПНВтаПТ',
+  title: 'Паспортизація МВВ | ТОВ ЕЦП НВ ПТ',
   description: "Паспортизація місць видалення відходів",
 };
 

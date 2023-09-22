@@ -3,7 +3,7 @@ import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 export const metadata = {
-  title: 'Спецводокористування | ТОВ ЕЦПНВтаПТ',
+  title: 'Спецводокористування | ТОВ ЕЦП НВ ПТ',
   description: 'Спеціальне водокористування',
 }
 

@@ -1,9 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import styles from "@/components/Logo/Logo.module.css";
+
 const Logo = () => {
   return (
-    <Link href="/" className="logo" >
+    <Link href="/" className={styles.logo} >
         <Image
           src={"/logo.svg"}
           width={50}

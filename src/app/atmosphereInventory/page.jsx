@@ -2,7 +2,7 @@ import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 export const metadata = {
-  title: 'Інвентаризація викидів | ТОВ ЕЦПНВтаПТ',
+  title: 'Інвентаризація викидів | ТОВ ЕЦП НВ ПТ',
   description: "Проведення інвентаризації джерел викидів",
 };
 

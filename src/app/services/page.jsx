@@ -8,7 +8,7 @@ import WaterDropIcon from '@mui/icons-material/WaterDrop';
 import DeleteIcon from '@mui/icons-material/Delete';
 
 export const metadata = {
-    title: 'Послуги | ТОВ ЕЦПНВтаПТ',
+    title: 'Послуги | ТОВ ЕЦП НВ ПТ',
     description: "Послуги у галузі екології та раціонального використання природних ресурсів",
   };
 

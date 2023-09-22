@@ -7,13 +7,15 @@ import DarkModeToggle from '@/components/DarkModeToggle/DarkModeToggle';
 import Logo from '@/components/Logo/Logo';
 import { navItems } from '@/data/navItems';
 
+import styles from "@/components/Header/Header.module.css";
+
 const TheHeader = () => {
   const {isMobileMenuOpen, openMobileMenu } = useMobileMenu();
 
   return (
-    <header className="headerContainer">      
+    <header className={styles.wrapper}>      
       <Logo/>
-      <span className="burger" type='button' onClick={openMobileMenu}></span>
+      <span className={styles.burger} type='button' onClick={openMobileMenu}></span>
       {isMobileMenuOpen && <MobileMenu/>}
       <Navigation navLinks={navItems} />
       <DarkModeToggle/>

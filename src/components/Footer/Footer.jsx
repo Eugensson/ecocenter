@@ -3,11 +3,11 @@ import Image from "next/image";
 
 import Social from '@/components/Social/Social';
 
-import styles from "@/components/TheFooter/TheFooter.module.css";
+import styles from "@/components/Footer/Footer.module.css";
 
 const TheFooter = () => {
   return (
-    <footer className="footerContainer">
+    <footer className={styles.wrapper}>
       <h2>Екологічний центр поводження з небезпечними відходами та промислової технології</h2>      
       <div className={styles.contactsWrapper}>
         <p className={styles.text}>Потрібна додаткова інформація? Зв’яжіться з нами: +38-067-395-62-56</p>
@@ -27,10 +27,10 @@ const TheFooter = () => {
               alt="Іконка viber"
             />
         </Link>
-      </div>      
+      </div>
       <h2>Ми у соцмежах</h2>
       <Social />
-      <p className="copyrightText">&copy; 2023, ТОВ &quot;ЕЦ ПНВ ПТ&quot;. Всі права захищено.</p>
+      <p className={styles.copyrightText}>&copy; 2023, ТОВ &quot;ЕЦ ПНВ ПТ&quot;. Всі права захищено.</p>
     </footer>
   );
 };

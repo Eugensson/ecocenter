@@ -1,7 +1,7 @@
 import { ThemeProvider } from "@/context/ThemeContext";
 import { MobileMenuProvider } from '@/context/MobileMenuContext';
-import TheHeader from '@/components/TheHeader/TheHeader';
-import TheFooter from "@/components/TheFooter/TheFooter";
+import Header from '@/components/Header/Header';
+import Footer from "@/components/Footer/Footer";
 
 import './globals.css'
 
@@ -24,11 +24,11 @@ export default function RootLayout({ children }) {
       <body className={roboto.className}>
         <ThemeProvider>
           <MobileMenuProvider>
-            <TheHeader/>
-            <main className="mainContainer">
+            <Header />
+            <main className="container">
                {children}
             </main>
-            <TheFooter />
+            <Footer />
           </MobileMenuProvider>
         </ThemeProvider>
       </body>

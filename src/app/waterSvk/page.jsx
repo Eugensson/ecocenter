@@ -2,7 +2,7 @@ import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 export const metadata = {
-  title: 'Дозвіл на СВК | ТОВ ЕЦПНВтаПТ',
+  title: 'Дозвіл на СВК | ТОВ ЕЦП НВ ПТ',
   description: "Розробка дозволу на спеціальне водокористування",
 };
 

@@ -2,7 +2,7 @@ import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 export const metadata = {
-  title: 'ЗСО | ТОВ ЕЦПНВтаПТ',
+  title: 'ЗСО | ТОВ ЕЦП НВ ПТ',
   description: "Розробка проектів зон санітарної охорони джерел питного та господарсько-побутового водопостачання",
 };
 

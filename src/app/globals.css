@@ -19,19 +19,6 @@
   background-color: var(--secondary-background-color);
 }
 
-.visuallyHidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;  
@@ -45,8 +32,27 @@ body {
   font-size: 30px;
 }
 
-.logo {
-  display: none;
+.visuallyHidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;  
+  gap: 20px;
+
+  max-width: 480px;
+  margin: 0 auto;
+  border-bottom: 3px solid var(--green-color);    
 }
 
 h1 {  
@@ -73,39 +79,6 @@ a:hover, a:focus {
   color: var(--accent-text-color);
 }
 
-.mainContainer {
-  display: flex;
-  flex-direction: column;  
-  gap: 20px;
-
-  max-width: 480px;
-  margin: 0 auto;
-  border-bottom: 3px solid var(--green-color);    
-}
-
-.headerContainer {
-  position: relative;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-  
-  margin: 0 auto;
-  padding: 20px;
-  max-width: 480px;
-  border-bottom: 3px solid var(--green-color);  
-}
-
-.footerContainer {
-  display: flex;
-  flex-direction: column;  
-  align-items: center;
-  gap: 5px;
-
-  padding: 5px;
-}
-
 .sectionContainer {
   display: flex;
   flex-direction: column;
@@ -121,26 +94,14 @@ a:hover, a:focus {
   align-items: center;   
 }
 
-.contactContainer, .mapContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;  
-  
-  width: 350px;
-  height: 350px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: var(--third-background-color);
-}
-
-.mapContainer {
-  align-items: center;
-}
-
 .leaflet-container {
   padding: 0;  
   width: 280px;  
   height: 280px;
+}
+
+.popup {
+  font-size: 0.5rem;
 }
 
 .navList {
@@ -155,47 +116,25 @@ a:hover, a:focus {
   gap: 10px;  
 }
 
-.socialList {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.socialItem {
-  display: flex;
-  align-items: center;
-  gap: 10px;  
-}
-
-.socialLink:hover, .socialLink:focus {
-    color: var(--accent-text-color);
-}
-
 .text {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   
   font-size: 0.25rem;  
 }
 
-.copyrightText {
-  display: inline-block;
-  text-align: center;
-
-  font-size: 0.25rem;
-}
-
 .bgiContainer {
+  display: none;
   width: 100%;
-  height: 200px;
+  height: 300px;
   background-size: cover;
   background-position: top;
 }
 
 .bgiWellcome {
   background-image: url("/wellcome.jpg");
-  background-position: center 75%;
+  background-position: center 70%;
 }
 
 .bgiServices {
@@ -244,9 +183,14 @@ a:hover, a:focus {
   background-position: bottom;
 }
 
-.bgiNews {
-  background-image: url("/news.jpg");
+.bgiLaws {
+  background-image: url("/laws.jpg");
   background-position: bottom;
+}
+
+.bgiLinks {
+  background-image: url("/links.jpg");
+  background-position: center;
 }
 
 .bgiContacts {
@@ -254,64 +198,21 @@ a:hover, a:focus {
   background-position: center;
 }
 
-.burger {
-  position: absolute;
-  top: 50%;
-  left: 20px;
-  
-  width: 40px;
-  height: 4px;
-  background-color: var(--green-color);
-  transition: transform 0.3s ease-in-out;    
-}
-  
-.burger::before,
-.burger::after {
-  content: "";
-  width: 100%;
-  height: 4px;
-  background-color: var(--green-color);
-  position: absolute;
-  transition: transform 0.3s ease-in-out;
-}
-  
-.burger::before {
-  top: -12px;
-  left: 0;
-}
-  
-.burger::after {
-  bottom: -12px;
-  left: 0;
-}
 
 @media (min-width: 768px) {
-  .mainContainer {
+  .container {
     max-width: 768px;    
   }
 
-  .headerContainer {
-    justify-content: space-between;
-    
-    max-width: 768px;
-    padding: 10px;
+  .bgiContainer {
+    display: block;
   }
-
+  
   .sectionContainer {    
     gap: 10px;
 
     margin-bottom: 10px;
     padding: 10px;
-  }
-
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .burger {
-    display: none;
   }
 
   h1 {  
@@ -322,24 +223,20 @@ a:hover, a:focus {
     font-size: 0.6rem;
   }
 
-  .navList, .navItem, .socialList {
+  .navList, .navItem {
     gap: 5px;
   }
 
   .text {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
     text-align: justify;
-    gap: 20px;
-  }
-
-  .copyrightText {
-    font-size: 0.25rem;
-  }
+    gap: 10px;
+  }  
 }
 
-@media (min-width: 1440px) {
-  .mainContainer, .headerContainer {
-    max-width: 1440px;
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
   }
    
   .sectionContainer {    
@@ -347,13 +244,7 @@ a:hover, a:focus {
 
     margin-bottom: 10px;
     padding: 10px;
-  }
-
-  .contactContainer, .mapContainer {
-    width: 600px;
-    height: 600px;
-    padding: 40px;    
-  }
+  }  
 
   .leaflet-container {
     width: 450px;
@@ -369,10 +260,6 @@ a:hover, a:focus {
   }
 
   .text {     
-    gap: 30px;
-  }
-
-  .copyrightText {
-    font-size: 0.75rem;
-  }
+    gap: 20px;
+  }  
 }

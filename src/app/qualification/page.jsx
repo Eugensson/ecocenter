@@ -1,6 +1,6 @@
 export const metadata = {
-    title: 'Кваліфікація | ТОВ ЕЦПНВтаПТ',
-    description: "Кваліфікація та досвід працівників центру",
+    title: 'Кваліфікація | ТОВ ЕЦП НВ ПТ',
+    description: "Кваліфікація та досвід працівників",
   };
 
 const Qualification = () => {

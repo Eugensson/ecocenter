@@ -1,7 +1,7 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 export const metadata = {
-  title: '№ 1-BT | ТОВ ЕЦПНВтаПТ',
+  title: '№ 1-BT | ТОВ ЕЦП НВ ПТ',
   description: "Складання звітності за формою № 1-BT",
 };
 

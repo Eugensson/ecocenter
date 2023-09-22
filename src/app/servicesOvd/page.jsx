@@ -2,7 +2,7 @@ import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 export const metadata = {
-  title: 'ОВД | ТОВ ЕЦПНВтаПТ',
+  title: 'ОВД | ТОВ ЕЦП НВ ПТ',
   description: 'Оцінка впливів на довкілля',
 }
 

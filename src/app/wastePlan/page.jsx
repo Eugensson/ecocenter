@@ -1,7 +1,7 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 export const metadata = {
-  title: 'План управління відходами | ТОВ ЕЦПНВтаПТ',
+  title: 'План управління відходами | ТОВ ЕЦП НВ ПТ',
   description: "Розробка плану управління відходами",
 };
 

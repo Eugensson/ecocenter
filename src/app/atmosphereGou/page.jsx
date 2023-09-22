@@ -2,7 +2,7 @@ import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 export const metadata = {
-  title: 'Паспортизація ГОУ | ТОВ ЕЦПНВтаПТ',
+  title: 'Паспортизація ГОУ | ТОВ ЕЦП НВ ПТ',
   description: "Розробка паспортів установок очистки газу",
 };
 

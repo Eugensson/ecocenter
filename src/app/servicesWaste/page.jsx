@@ -3,7 +3,7 @@ import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 export const metadata = {
-  title: 'Відходи | ТОВ ЕЦПНВтаПТ',
+  title: 'Відходи | ТОВ ЕЦП НВ ПТ',
   description: 'Промислові відходи та відходи споживання',
 }
 

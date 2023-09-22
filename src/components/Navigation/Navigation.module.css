@@ -2,7 +2,9 @@
     display: none;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 10px;
+
+    margin: 0 auto;
 }
 
 .link {
@@ -11,7 +13,7 @@
   display: inline-block;
   overflow: hidden;
 
-  font-size: 0.5rem;
+  font-size: 0.44rem;
   font-weight: 500;
   text-decoration: none;
 }
@@ -27,7 +29,11 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
+  .nav {
+    gap: 20px;
+  }
+
   .link {
     font-size: 0.75rem;
   }  

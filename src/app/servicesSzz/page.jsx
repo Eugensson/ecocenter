@@ -1,7 +1,7 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 export const metadata = {
-  title: 'СЗЗ | ТОВ ЕЦПНВтаПТ',
+  title: 'СЗЗ | ТОВ ЕЦП НВ ПТ',
   description: 'Обґрунтування встановлення/зменшення санітарно-захисної зони (СЗЗ)',
 }
 

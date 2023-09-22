@@ -1,7 +1,7 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 export const metadata = {
-  title: 'Декларація на відходи | ТОВ ЕЦПНВтаПТ',
+  title: 'Декларація на відходи | ТОВ ЕЦП НВ ПТ',
   description: "Складання декларації про утворення відходів",
 };
 

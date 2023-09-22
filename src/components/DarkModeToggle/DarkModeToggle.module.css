@@ -1,4 +1,4 @@
-.container{
+.wrapper{
     width: 42px;
     height: 24px;
     border: 1.5px solid var(--green-color);
@@ -12,20 +12,14 @@
     margin-left: auto;
   }
   
-  .icon{
+.icon{
     font-size: 12px;
-  }
+}
   
-  .ball{
+.ball{
     width: 15px;
     height: 15px;
     background-color: var(--green-color);
     border-radius: 50%;
     position: absolute;
-  }
-
-@media (min-width: 768px) {
-  .container{
-    margin-left: 0;
-  }
 }

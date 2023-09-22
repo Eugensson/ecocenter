@@ -1,7 +1,7 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 export const metadata = {
-  title: 'ОВНС | ТОВ ЕЦПНВтаПТ',
+  title: 'ОВНС | ТОВ ЕЦП НВ ПТ',
   description: 'Оцінка впливів на навколишнє середовище',
 }
 

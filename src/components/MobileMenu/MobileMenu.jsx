@@ -14,16 +14,14 @@ export default function MobileMenu() {
           <Link href="/" onClick={closeMobileMenu}>Про нас</Link>
           <Link href="/services" onClick={closeMobileMenu}>Послуги</Link>
           <Link href="/laboratory" onClick={closeMobileMenu}>Лабораторія</Link>
-          <Link href="/qualification" onClick={closeMobileMenu}>Кваліфікація</Link>          
-          <Link href="/news" onClick={closeMobileMenu}>Новини</Link>          
+          <Link href="/qualification" onClick={closeMobileMenu}>Кваліфікація</Link>
+          <Link href="/laws" onClick={closeMobileMenu}>Законодавство</Link>
+          <Link href="/links" onClick={closeMobileMenu}>Корисні посилання</Link>
       </nav>
       <ul className={styles.list}>
             <li>
               <Link href="https://telegram.org/" target="_blank" className={styles.social}>Telegram</Link>
-            </li>
-            <li>
-              <Link href="https://twitter.com/" target="_blank" className={styles.social}>Twitter</Link>
-            </li>
+            </li>            
             <li>
               <Link href="https://facebook.com/pokrov.ltd/" target="_blank" className={styles.social}>Facebook</Link>
             </li>

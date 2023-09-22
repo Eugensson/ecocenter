@@ -1,7 +1,7 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 export const metadata = {
-  title: 'Інвентаризація відходів | ТОВ ЕЦПНВтаПТ',
+  title: 'Інвентаризація відходів | ТОВ ЕЦП НВ ПТ',
   description: "Інвентаризація відходів",
 };
 

@@ -1,7 +1,7 @@
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 export const metadata = {
-  title: 'Реєстрові карти | ТОВ ЕЦПНВтаПТ',
+  title: 'Реєстрові карти | ТОВ ЕЦП НВ ПТ',
   description: "Розробка реєстрових карт об'єктів утворення, оброблення та утилізації відходів",
 };
 

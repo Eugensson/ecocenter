@@ -18,9 +18,8 @@ const Map = () => {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={[49.442626828602904, 32.05069391852951]} icon={customIcon}>
-            <Popup>
-                ТОВ ЕЦПНВтаПТ <br />                
-                вул. Святотроїцька,102/1, оф.: 3,5                                
+            <Popup className="popup">
+                ТОВ ЕЦ ПНВ ПТ<br />18002, м. Черкаси,<br />вул. Святотроїцька,102/1,<br />оф.: 3, 5                                
             </Popup>
         </Marker>
     </MapContainer>

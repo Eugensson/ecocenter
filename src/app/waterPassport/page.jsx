@@ -2,7 +2,7 @@ import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 export const metadata = {
-  title: 'Паспортизація свердловин | ТОВ ЕЦПНВтаПТ',
+  title: 'Паспортизація свердловин | ТОВ ЕЦП НВ ПТ',
   description: "Розробка паспортів свердловин",
 };
 

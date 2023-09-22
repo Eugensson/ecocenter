@@ -2,7 +2,7 @@ import LinkBtn from "@/components/LinkBtn/LinkBtn";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 export const metadata = {
-  title: 'Дозвіл на викиди | ТОВ ЕЦПНВтаПТ',
+  title: 'Дозвіл на викиди | ТОВ ЕЦП НВ ПТ',
   description: "Підготовка обгрунтовуючих матеріалів та отримання дозволу на викиди",
 };
 
