@@ -4,6 +4,6 @@ export const navItems = [
     { label: 'Кваліфікація', href: '/qualification' },
     { label: 'Лабораторія', href: '/laboratory' },
     { label: 'Законодавство', href: '/laws' },    
-    { label: 'Корисні посилання', href: '/links' },
+    { label: 'Корисне', href: '/links' },
     { label: 'Контакти', href: '/contacts' },
   ];

@@ -84,7 +84,6 @@ a:hover, a:focus {
   flex-direction: column;
   gap: 5px;
 
-  margin-bottom: 10px;
   padding: 5px;
 }
 
@@ -210,9 +209,8 @@ a:hover, a:focus {
   
   .sectionContainer {    
     gap: 10px;
-
-    margin-bottom: 10px;
-    padding: 10px;
+    
+    padding: 20px;
   }
 
   h1 {  
@@ -239,13 +237,6 @@ a:hover, a:focus {
     max-width: 1600px;
   }
    
-  .sectionContainer {    
-    gap: 10px;
-
-    margin-bottom: 10px;
-    padding: 10px;
-  }  
-
   .leaflet-container {
     width: 450px;
     height: 450px;
@@ -262,4 +253,10 @@ a:hover, a:focus {
   .text {     
     gap: 20px;
   }  
+}
+
+.swiperWrapper {
+  width: 450px;
+  height: 500px;
+  margin: 0 auto;
 }

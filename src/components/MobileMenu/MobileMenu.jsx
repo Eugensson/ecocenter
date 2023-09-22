@@ -16,7 +16,7 @@ export default function MobileMenu() {
           <Link href="/laboratory" onClick={closeMobileMenu}>Лабораторія</Link>
           <Link href="/qualification" onClick={closeMobileMenu}>Кваліфікація</Link>
           <Link href="/laws" onClick={closeMobileMenu}>Законодавство</Link>
-          <Link href="/links" onClick={closeMobileMenu}>Корисні посилання</Link>
+          <Link href="/links" onClick={closeMobileMenu}>Корисне</Link>
       </nav>
       <ul className={styles.list}>
             <li>

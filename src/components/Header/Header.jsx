@@ -5,7 +5,7 @@ import { Navigation } from '@/components/Navigation/Navigation';
 import MobileMenu from "@/components/MobileMenu/MobileMenu";
 import DarkModeToggle from '@/components/DarkModeToggle/DarkModeToggle';
 import Logo from '@/components/Logo/Logo';
-import { navItems } from '@/data/navItems';
+import { navItems } from '@/data';
 
 import styles from "@/components/Header/Header.module.css";
 
