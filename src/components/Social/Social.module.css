@@ -1,9 +1,0 @@
-.list {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-  
-.link:hover, .link:focus {
-    color: var(--accent-text-color);
-}
